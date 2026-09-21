@@ -1,5 +1,5 @@
-import type { StackNavigationProp } from '@react-navigation/stack';
-import type { RouteProp } from '@react-navigation/native';
+import type { StackNavigationProp } from 'expo-router/js-stack';
+import type { RouteProp } from 'expo-router/react-navigation';
 
 export interface TextoLocalizado {
   espanol: string;

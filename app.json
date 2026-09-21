@@ -3,6 +3,8 @@
     "name": "Mundo",
     "slug": "Mundo",
     "plugins": ["expo-router"],
+    "android": { "config": { "googleMaps": { "apiKey": "TU_KEY" } } },
+    "ios": { "config": { "googleMapsApiKey": "TU_KEY" } },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
